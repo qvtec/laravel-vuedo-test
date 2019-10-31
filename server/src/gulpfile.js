@@ -4,7 +4,7 @@ elixir.config.js.browserify.watchify.options.poll = true;
 // elixir.config.js.browserify.transformers.push({
 //     name: 'vueify'
 // });
-// require('laravel-elixir-vueify');
+require('laravel-elixir-vueify');
 // require('laravel-elixir-livereload');
 
 /*
