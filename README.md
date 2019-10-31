@@ -1,10 +1,8 @@
 # docker-laravel
 
-Docker環境のベース
+Laravelプロジェクト
 
-## Start
-
-Dockerでapache,php7.3,mysql5.7の環境をつくる
+## Docker
 
 ### 設定ファイル
 ```bash
@@ -43,6 +41,7 @@ $ php artisan serve
 
 * WEB
 http://127.0.0.1
+http://127.0.0.1/dashboard
 
 * phpMyAdmin
 http://127.0.0.1/8080
