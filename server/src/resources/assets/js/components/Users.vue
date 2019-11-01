@@ -1,35 +1,35 @@
 <template>
-<h1>Users</h1>
   <section class="content">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="box">
-            <div class="box-header">
-              <h3 class="box-title">Users</h3>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body table-responsive no-padding">
-              <table class="table table-hover">
-                <tr>
-                  <th>Firstname</th>
-                  <th>Lastname</th>
-                  <th>Posts</th>
-                  <th>Admin</th>
-                </tr>
-                <tr v-for="user in users">
-                  <td>{{user.first}}</td>
-                  <td>{{user.last}}</td>
-                  <td>{{user.posts}}</td>
-                  <td><span class="label label-success">{{user.admin}}</span></td>
-                </tr>
-              </table>
-            </div>
-            <!-- /.box-body -->
+    <h1>Users</h1>
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="box-header">
+            <h3 class="box-title">Users</h3>
           </div>
-          <!-- /.box -->
+          <!-- /.box-header -->
+          <div class="box-body table-responsive no-padding">
+            <table class="table table-hover">
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Posts</th>
+                <th>Admin</th>
+              </tr>
+              <tr v-for="user in users">
+                <td>{{user.first}}</td>
+                <td>{{user.last}}</td>
+                <td>{{user.posts}}</td>
+                <td><span class="label label-success">{{user.admin}}</span></td>
+              </tr>
+            </table>
+          </div>
+          <!-- /.box-body -->
         </div>
+        <!-- /.box -->
       </div>
-    </section>
+    </div>
+  </section>
 </template>
 
 <script>

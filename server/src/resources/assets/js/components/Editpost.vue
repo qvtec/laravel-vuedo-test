@@ -1,4 +1,5 @@
 <template>
+<section>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 <section class="content">
     <div class="row">
@@ -58,6 +59,7 @@
         <!-- /.col-->
     </div>
     <!-- ./row -->
+</section>
 </section>
 </template>
 <script>
